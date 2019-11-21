@@ -11,10 +11,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Landoopio/cypress-websocket-testing.git"
+    "url": "git+https://github.com/lensesio/cypress-websocket-testing.git"
   },
   "bugs": {
-    "url": "https://github.com/Landoopio/cypress-websocket-testing/issues"
+    "url": "https://github.com/lensesio/cypress-websocket-testing/issues"
   },
   "keywords": [
     "cypress",
