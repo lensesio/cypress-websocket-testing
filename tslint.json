@@ -1,0 +1,25 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint-config-airbnb",
+    "rxjs-tslint-rules",
+    "tslint-plugin-prettier",
+    "tslint-config-prettier"
+  ],
+  "jsRules": {},
+  "rules": {
+    "eofline": false,
+    "prettier": [
+      true,
+      null,
+      {
+        "editorconfig": false
+      }
+    ],
+    "no-boolean-literal-compare": false,
+    "ter-prefer-arrow-callback": [
+      false
+    ]
+  },
+  "rulesDirectory": []
+}

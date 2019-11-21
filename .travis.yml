@@ -1,0 +1,19 @@
+language: node_js
+
+node_js:
+  - 10
+
+cache:
+
+install:
+  - npm install
+  - npm run build
+  - npm run lint
+  - cd examples/
+  - npm install
+  - npm run lint
+  - npm start &
+  - npm run test:ci
+
+after_success:
+  - npx semantic-release

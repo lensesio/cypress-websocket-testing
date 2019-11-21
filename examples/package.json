@@ -1,0 +1,27 @@
+{
+    "name": "@lensesio/cypress-websocket-testing-examples",
+    "version": "1.0.0",
+    "private": true,
+    "author": "Lenses.io",
+    "license": "See main repo License",
+    "scripts": {
+        "lint": "tsc",
+        "start": "nodemon --watch server server/index.js",
+        "test:local": "cypress open",
+        "test:ci": "cypress run"
+    },
+    "dependencies": {
+        "@cypress/webpack-preprocessor": "^4.0.3",
+        "@lensesio/cypress-websocket-testing": "file:../../cypress-websocket-testing",
+        "cypress": "3.6.1",
+        "ws": "7.2.0",
+        "rxjs": "6.5.2"
+    },
+    "devDependencies": {
+        "@bahmutov/add-typescript-to-cypress": "^2.0.0",
+        "nodemon": "1.19.4",
+        "ts-loader": "5.4.3",
+        "typescript": "3.7.2",
+        "webpack": "^4.31.0"
+    }
+}

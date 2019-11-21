@@ -1,0 +1,59 @@
+{
+  "name": "@lensesio/cypress-websocket-testing",
+  "description": "WebSocket testing plugin for Cypress",
+  "version": "1.0.0",
+  "author": "Lenses.io",
+  "license": "Apache",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Landoopio/cypress-websocket-testing.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Landoopio/cypress-websocket-testing/issues"
+  },
+  "keywords": [
+    "cypress",
+    "websocket"
+  ],
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "commit": "git add . && git-cz",
+    "lint": "tslint src/**/*.ts",
+    "fix": "npm run lint --fix",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run lint",
+    "semantic-release": "semantic-release"
+  },
+  "peerDependencies": {
+    "rxjs": "^6.5.0"
+  },
+  "devDependencies": {
+    "cypress": "3.6.1",
+    "cz-conventional-changelog": "3.0.2",
+    "git-cz": "3.3.0",
+    "prettier": "1.19.1",
+    "rxjs": "6.4.0",
+    "rxjs-tslint-rules": "4.26.1",
+    "tslint": "5.20.1",
+    "@semantic-release/npm": "5.3.4",
+    "semantic-release": "15.13.30",
+    "tslint-config-airbnb": "5.11.2",
+    "tslint-config-prettier": "1.18.0",
+    "tslint-plugin-prettier": "2.0.1",
+    "typescript": "3.7.2"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "tag": "latest"
+  }
+}

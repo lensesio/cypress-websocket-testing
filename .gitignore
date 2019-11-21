@@ -1,0 +1,11 @@
+node_modules/
+.idea/
+*.iml
+.vscode/
+stats/
+npm-debug.log
+debug.log
+.DS_Store
+cypress/screenshots/
+cypress/videos/
+lib/
