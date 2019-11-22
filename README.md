@@ -35,6 +35,11 @@ npm i -D @lensesio/cypress-websocket-testing
 yarn add -D @lensesio/cypress-websocket-testing
 ```
 
+You also need to add `rxjs` to the project.
+```bash
+npm i -D rxjs
+```
+
 ## Usage
 
 ### JavaScript
