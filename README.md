@@ -25,7 +25,7 @@ Test your WebSocket endpoints using [Cypress](https://docs.cypress.io/).
 
 ## Background
 
-Cypress comes out of the box with a great set of tools, that allow both UI and API integration tests to be written. Unfortunatelly the cy.request() command is limited to REST endpoints only, so this library is here to help with those cases when WebSockets need to be called/tested as part of more complex integration/E2E tests.
+Cypress comes out of the box with a great set of tools that allow both UI and API integration tests to be written. Unfortunately the `cy.request()` command is limited to REST endpoints only, so this library is here to help with those cases when WebSockets need to be called/tested as part of more complex integration/E2E tests.
 
 ## Installation
 
