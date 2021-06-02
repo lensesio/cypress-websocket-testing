@@ -172,4 +172,4 @@ When committing, remember to use `npm run commit`, in order to start commitizen.
 
 ## LICENSE
 
-[Apache 2.0](LICENSE)
+[Apache 2.0](LICENSE.md)
