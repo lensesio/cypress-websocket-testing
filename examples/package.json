@@ -13,7 +13,7 @@
     "dependencies": {
         "@cypress/webpack-preprocessor": "^4.0.3",
         "@lensesio/cypress-websocket-testing": "file:../../cypress-websocket-testing",
-        "cypress": "3.6.1",
+        "cypress": "12.7.0",
         "ws": "7.4.6",
         "rxjs": "6.5.2"
     },
